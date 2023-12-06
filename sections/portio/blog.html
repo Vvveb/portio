@@ -1,0 +1,172 @@
+<section class="section blog" data-v-component-posts="popular" data-v-limit="6">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4" data-v-post data-v-if="posts.count > 0">
+        <div class="blog__item">
+          <div class="blog__item-thumb">
+            <img src="images/allpost/allPost-1.jpg" alt="blog-1" data-v-post-image>
+          </div>
+          <div class="blog__item-content">
+            <span data-v-post-created_at data-filter-friendly_date>Jan 20, 2020</span>
+            <a href="single-blog.html" data-v-post-url>
+              <div data-v-post-name>World’s most famous app developers and designers.</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" data-v-post>>
+        <div class="blog__item">
+          <div class="blog__item-thumb">
+            <img src="images/allpost/allPost-2.jpg" alt="blog-2">
+          </div>
+          <div class="blog__item-content">
+            <span>Jan 20, 2020</span>
+            <a href="single-blog.html">World’s most famous app developers and designers.</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" data-v-post>
+        <div class="blog__item">
+          <div class="blog__item-thumb">
+            <img src="images/allpost/allPost-3.jpg" alt="blog-3">
+          </div>
+          <div class="blog__item-content">
+            <span>Jan 20, 2020</span>
+            <a href="single-blog.html">World’s most famous app developers and designers.</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" data-v-post>
+        <div class="blog__item">
+          <div class="blog__item-thumb">
+            <img src="images/allpost/allPost-4.jpg" alt="blog-4">
+          </div>
+          <div class="blog__item-content">
+            <span>Jan 20, 2020</span>
+            <a href="single-blog.html">World’s most famous app developers and designers.</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" data-v-post>
+        <div class="blog__item">
+          <div class="blog__item-thumb">
+            <img src="images/allpost/allPost-5.jpg" alt="blog-5">
+          </div>
+          <div class="blog__item-content">
+            <span>Jan 20, 2020</span>
+            <a href="single-blog.html">World’s most famous app developers and designers.</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" data-v-post>
+        <div class="blog__item">
+          <div class="blog__item-thumb">
+            <img src="images/allpost/allPost-6.jpg" alt="blog-6">
+          </div>
+          <div class="blog__item-content">
+            <span>Jan 20, 2020</span>
+            <a href="single-blog.html">World’s most famous app developers and designers.</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" data-v-post>
+        <div class="blog__item">
+          <div class="blog__item-thumb">
+            <img src="images/allpost/allPost-7.jpg" alt="blog-7">
+          </div>
+          <div class="blog__item-content">
+            <span>Jan 20, 2020</span>
+            <a href="single-blog.html">World’s most famous app developers and designers.</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" data-v-post>
+        <div class="blog__item">
+          <div class="blog__item-thumb">
+            <img src="images/allpost/allPost-8.jpg" alt="blog-8">
+          </div>
+          <div class="blog__item-content">
+            <span>Jan 20, 2020</span>
+            <a href="single-blog.html">World’s most famous app developers and designers.</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" data-v-post>
+        <div class="blog__item">
+          <div class="blog__item-thumb">
+            <img src="images/allpost/allPost-9.jpg" alt="blog-9">
+          </div>
+          <div class="blog__item-content">
+            <span>Jan 20, 2020</span>
+            <a href="single-blog.html">World’s most famous app developers and designers.</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog__pagination">
+
+        <div data-pagination data-v-parent-component="posts" data-v-parent-index="0">
+
+          <nav data-v-if="pagecount > 1" class="nav-bg">
+            <ul class="pagination pagination-sm">
+
+              <!--
+							<li class="page-item pager-first" data-first>
+								<a title="First page" href="#" data-page-url data-v-if="current_page > 1">
+									<span aria-hidden="true" class="fa fa-angle-double-left"></span>
+									<span class="sr-only">First</span>
+								</a>
+							</li>
+							-->
+
+              <li class="page-item pager-prev" data-prev data-v-if="current_page > 1">
+
+                <a href="#" aria-label="Previous" title="Previous page" data-page-url>
+                  <span aria-hidden="true" class="fa fa-angle-left la-lg"></span>
+                  <!-- <span>Newer Posts</span> -->
+                </a>
+
+              </li>
+
+
+
+              <li class="page-item" data-page>
+                <a href="#" data-page-no data-page-url>1</a>
+              </li>
+              <li class="page-item" data-page>
+                <a href="#" data-page-no data-page-url>2</a>
+              </li>
+              <li class="page-item" data-page>
+                <a href="#" data-page-no data-page-url>3</a>
+              </li>
+              <li class="page-item" data-page>
+                <a href="#" data-page-no data-page-url>4</a>
+              </li>
+              <li class="page-item" data-page>
+                <a href="#" data-page-no data-page-url>5</a>
+              </li>
+
+              <li class="page-item pager-next" data-next data-v-if="current_page < pagecount">
+                <a href="#" aria-label="Next" title="Next page" data-page-url>
+                  <!-- <span>Older Posts</span> -->
+                  <span aria-hidden="true" class="fa fa-angle-right la-lg"></span>
+                </a>
+              </li>
+
+              <!--
+							<li class="page-item pager-last" data-last>
+								<a title="Last page" href="#" data-page-url data-v-if="current_page < pagecount">
+								<span aria-hidden="true" class="fa fa-angle-double-right"></span>
+									<span class="sr-only">Last</span>
+								</a>
+							</li>
+							-->
+
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Portio</title>
+
+  <!--Meta For No Index-->
+  <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="vendor/slick/slick.css" />
+  <link rel="stylesheet" href="vendor/slick/slick-theme.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="vendor/magnafic-popup/magnific-popup.css" />
+  <!-- Stylesheets -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+</head>
+
+<body data-spy="scroll">
+
+
+
+
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <div data-v-component-site>
+        <a class="navbar-brand" href="index.html" data-v-url-params='{"host":"www.*.*"}'>
+          <img src="images/site-navigation/logo.png" loading="lazy" class="logo-default logo-main" alt="site-logo" data-v-site-logo>
+          <!--
+			   <img src="img/logo.png" loading="lazy" class="logo-sticky logo-main" src="images/logo.svg" alt="logo" data-v-site-logo-sticky>
+			   <img src="img/logo-white.png" loading="lazy" class="logo-default-dark logo-main" src="images/logo.svg" alt="logo" data-v-site-logo-dark>
+			   <img src="img/logo-white.png" loading="lazy" class="logo-default-dark-sticky logo-main" src="images/logo.svg" alt="logo" data-v-site-logo-dark-sticky>
+			   -->
+        </a>
+      </div>
+      <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse" data-v-component-menu="header" data-v-slug="main-menu">
+        <ul class="nav navbar-nav main-navigation" data-v-menu-items>
+          <li class="nav-item dropdown" data-v-menu-item data-v-class-if-has-dropdown="category.children > 0">
+
+            <a class="nav-link" href="#" data-v-class-if-dropdown-toggle="category.children > 0" aria-haspopup="true" aria-expanded="false" data-v-menu-item-url>
+              <span data-v-menu-item-name>Resources</span>
+            </a>
+
+            <div class="dropdown-menu" data-v-menu-item-recursive>
+              <div data-v-menu-item class="nav-item" data-v-menu-item data-v-class-if-dropdown="category.children > 0">
+                <a class="dropdown-item" href="https://github.com/givanz/VvvebJs/wiki" data-v-menu-item-url>
+                  <span data-v-menu-item-name>User Documentation</span>
+                </a>
+              </div>
+              <div data-v-menu-item class="nav-item" data-v-menu-item data-v-class-if-dropdown="category.children > 0">
+                <a class="dropdown-item" href="https://github.com/givanz/VvvebJs/wiki" data-v-menu-item-url>
+                  <span data-v-menu-item-name>Developer Documentation</span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item" data-v-menu-item>
+            <a class="nav-link" href="content/index.html" data-v-menu-item-url>
+              <span data-v-menu-item-name>Blog</span>
+            </a>
+          </li>
+
+          <li class="nav-item" data-v-menu-item>
+            <a href="#home" class="nav-link scroll" data-v-menu-item-url>
+              <span data-v-menu-item-name>Home</span>
+            </a>
+          </li>
+          <li class="nav-item" data-v-menu-item>
+            <a href="#about" class="nav-link scroll" data-v-menu-item-url>
+              <span data-v-menu-item-name>About</span>
+            </a>
+          </li>
+          <li class="nav-item" data-v-menu-item>
+            <a href="#service" class="nav-link scroll" data-v-menu-item-url>
+              <span data-v-menu-item-name>Service</span>
+            </a>
+          </li>
+          <li class="nav-item" data-v-menu-item>
+            <a href="#portfolio" class="nav-link scroll" data-v-menu-item-url>
+              <span data-v-menu-item-name>Work</span>
+            </a>
+          </li>
+          <li class="nav-item" data-v-menu-item>
+            <a href="#resume" class="nav-link scroll" data-v-menu-item-url>
+              <span data-v-menu-item-name>Resume</span>
+            </a>
+          </li>
+          <li class="nav-item" data-v-menu-item>
+            <a href="#blog" class="nav-link scroll" data-v-menu-item-url>
+              <span data-v-menu-item-name>Blog</span>
+            </a>
+          </li>
+          <li class="nav-item" data-v-menu-item>
+            <a href="#contact" class="nav-link scroll" data-v-menu-item-url>
+              <span data-v-menu-item-name>Contact</span>
+            </a>
+          </li>
+        </ul>
+        <div class="navbar-nav">
+          <a href="contact.html" class="hire_button">Hire Me Now</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="section case-details">
+    <div class="svg-img">
+      <img src="images/hero/figure-svg.svg" alt="">
+    </div>
+    <div class="animate-shape">
+      <!-- <img src="images/skill/skill-background-shape.svg" alt="background-shape"> -->
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
+        <defs>
+          <linearGradient id="d" x1="0.929" y1="0.111" x2="0.263" y2="0.935" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f1f6f9" />
+            <stop offset="1" stop-color="#f1f6f9" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+        <g data-name="blob-shape (3)">
+          <path class="blob" fill="url(#d)" d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" />
+        </g>
+      </svg>
+    </div>
+    <div class="animate-pattern">
+      <img src="images/service/background-pattern.svg" alt="background-shape">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1 text-center">
+          <div class="case-details-title">
+            <h1>Basketball Game Approach to Creating Modern Designs.</h1>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+            labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet lorem
+            ipsum dolor.</p>
+          <div class="case-details-info">
+            <div class="case-details-info-item">
+              <h5>Clients</h5>
+              <p>Edward Furlong</p>
+            </div>
+            <div class="case-details-info-item">
+              <h5>Service</h5>
+              <p>Development, UX Design</p>
+            </div>
+            <div class="case-details-info-item">
+              <h5>Date</h5>
+              <p>May 10, 2020</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="case-details-service">
+                <h3>Challenge</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                  invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua vero eos et accusam et
+                  justo duo dolores et ea rebum. Stet clita kasd gubergren.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="case-details-service">
+                <h3>Solution</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                  invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua vero eos et accusam et
+                  justo duo dolores et ea rebum. Stet clita kasd gubergren.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="case-details-thumb">
+            <img src="images/portfolio/case-details.png" alt="case-details">
+          </div>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+            labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+            labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+          <p>Ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+            rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <div class="case-details-nav">
+            <div class="previous">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15.556" height="28.285" viewBox="0 0 15.556 28.285">
+                  <g data-name="Group 1243" fill="#2d2d2d">
+                    <path data-name="Path 1456" d="M3.391 12.728l9.75 14.142-.982 1.414-9.742-14.142z" />
+                    <path data-name="Path 1455" d="M13.137 1.41L3.39 15.558l-.975-1.415L12.166 0z" />
+                  </g>
+                </svg>
+              </div>
+              <div class="content">
+                <span>Prev case</span>
+                <h5 class="title">
+                  <a href="">Basketball Game</a>
+                </h5>
+              </div>
+            </div>
+            <div class="social">
+              <ul>
+                <!-- <li><a href=""><i class="fa fa-facebook-official"></i></a></li> -->
+                <li>
+                  <a href="">
+                    <i class="fa fa-linkedin-square"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fa fa-pinterest-square"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fa fa-facebook-official"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="next">
+              <div class="content">
+                <span>Next case</span>
+                <h5 class="title">
+                  <a href="">Basketball Game</a>
+                </h5>
+              </div>
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15.556" height="28.285" viewBox="0 0 15.556 28.285">
+                  <g data-name="Group 1244" fill="#2d2d2d">
+                    <path data-name="Path 1456" d="M12.162 12.725L2.416 26.87l.978 1.41 9.746-14.138z" />
+                    <path data-name="Path 1455" d="M2.416 1.415l9.743 14.141.975-1.414L3.39 0z" />
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact__background_shape">
+      <svg viewBox="0 0 1920 79">
+        <path d="M0 0h1920v79L0 0z" data-name="Path 1450" />
+      </svg>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="contact__cta">
+            <div class="shape-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
+                <path data-name="Path 1449" d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z" transform="translate(217.489 188.626)" />
+              </svg>
+            </div>
+            <div class="shape-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
+                <path data-name="Path 1449" d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z" transform="translate(217.489 188.626)" />
+              </svg>
+            </div>
+            <div class="contact__cta_content">
+              <span>Contact me</span>
+              <h1>Let’s Start a Project</h1>
+            </div>
+            <div class="contact__cta_action">
+              <a href="contact.html">Get in touch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row contact__widget" data-v-component-site>
+        <div class="col-lg-4">
+          <div class="contact__widget_logo">
+            <img src="images/contact/widget-logo.png" loading="lazy" class="logo-default-dark logo-main" src="images/logo.svg" alt="logo" data-v-site-logo-dark>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="contact__widget_sitemap">
+            <h3>Sitemap</h3>
+            <ul>
+              <li>
+                <a class="scroll" href="index.html#about">About me</a>
+              </li>
+              <li>
+                <a href="term-condition.html">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="privacy-policy.html">Privacy & Policy</a>
+              </li>
+              <li>
+                <a href="blog.html">Latest Article</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="contact__widget_address">
+            <h3>Address</h3>
+            <ul>
+              <li>
+                <a href="tel:5511112377" data-v-site-phone-number>
+                  <i class="fa fa-phone"></i>
+                  <span data-v-site-phone-number>+55 (111) 123 777</span>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:contact@mysite.com" data-v-site-contact-email>
+                  <i class="fa fa-envelope"></i>
+                  <span data-v-site-contact-email>contact@mysite.com</span>
+                </a>
+              </li>
+              <li>
+                <p>
+                  <i class="fa fa-map-marker"></i>
+                  <span data-v-site-address>23 Khan Niketon, Grand Street, NYK.</span>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row contact__footer">
+        <div class="col-lg-6">
+          <div class="contact__footer_copy">
+            <p>All right reserved copyright &copy; <a href="https://staticmania.com/" data-v-global-site-url target="_blank" class="text-light">
+                <span data-v-global-site-title>StaticMania</span>
+              </a>
+              <span id="newYear" data-v-year></span>
+              &ensp;<span class="muted">Powered by</span>
+              <a href="https://vvveb.com/" target="_blank" class="text-light">Vvveb</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="contact__footer_social">
+            <ul>
+              <li>
+                <a href="">
+                  <i class="fa fa-facebook-official"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa fa-linkedin-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa fa-pinterest-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa fa-facebook-official"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0&libraries=geometry"></script>
+  <script src="vendor/jQuery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/bootstrap.min.js"></script>
+  <script src="vendor/slick/slick.min.js"></script>
+  <script src="vendor/slick/slick.min.js"></script>
+  <script src="vendor/waypoint/jquery.waypoints.min.js"></script>
+  <script src="vendor/magnafic-popup/jquery.magnific-popup.min.js"></script>
+  <script src="vendor/tweenmax/TweenMax.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
